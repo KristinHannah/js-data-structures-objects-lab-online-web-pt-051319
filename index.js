@@ -2,5 +2,5 @@
 
 function updateDriverWithKeyAndValue(driver, key, value){
   Object.assign({}, driver, key, value)
-  newDriver
+  return driver
 }
